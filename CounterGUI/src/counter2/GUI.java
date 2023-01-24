@@ -1,7 +1,6 @@
 /** @author Sotiris Emmanouil
 A simple applet that counts the amount of times you click on the botton 
 */
-
 package counter2;
 import java.awt.*;
 import java.awt.event.*;
