@@ -3,4 +3,3 @@ Program with a GUI interface written in Java that counts the amount of times the
 
 ## The program running:
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/108318635/214230100-9ff72a2c-ebfd-48fc-89d0-fc70c9cf5882.gif)
