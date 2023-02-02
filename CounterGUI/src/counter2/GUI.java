@@ -25,10 +25,10 @@ import javax.swing.*;
 
 	/** The GUI setup */
 	 
-    GUI(){
+         GUI(){
     	
 		label = new JLabel();
-	    label.setBounds(150, 250, 100, 100);
+	        label.setBounds(150, 250, 100, 100);
 		label.setVisible(false);
 		
 		title = new JLabel("Time Left:");
