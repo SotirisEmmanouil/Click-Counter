@@ -137,11 +137,12 @@ import javax.swing.*;
 				button.setEnabled(true);
 				label.setVisible(true);
 		   }
-		   if (e.getSource()==button3) {
-			       counter+=1;
+		     if (e.getSource()==button3) {
+			if(!(textField.getText().equals(""))) {
+			    counter+=1;
 			    button3.setEnabled(false);
 			   textField.setEditable(false);
-			       
+			    }
 			}
 		   }
 		
