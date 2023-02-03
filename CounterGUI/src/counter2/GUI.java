@@ -173,13 +173,12 @@ import javax.swing.*;
 	 * @return seconds counting down 
 	 */
   private static final int setInterval() {
-     if (interval == 1) {
+     if (interval == 0) {
         timer.cancel();	
      	JOptionPane.showMessageDialog(null,"You clicked the button "+ number1 + " times in "+ secs + " seconds!", "Congratulations!", JOptionPane.INFORMATION_MESSAGE);
       	button3.setEnabled(true);
       	textField.setEditable(true);
-      
-	}
+	    }
        		return --interval;
 	}
 }
